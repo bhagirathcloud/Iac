@@ -39,11 +39,8 @@ build {
       "sleep 30",
       "sudo apt-get update",
       "sudo apt-get install git -y",
-     "git clone https://github.com/chinastockproducts/devops-automation.git",
-      "cd devops-automation && bash packer.sh",
- #     "git clone https://github.com/chinastockproducts/jenkins-kubernetes-helm-deployment.git",
- #     "cd jenkins-kubernetes-helm-deployment",
- #     "bash deploy_jenkins_chart.sh",
+     "git clone https://github.com/bhagirathcloud/Iac.git",
+      "cd Iac && bash packer.sh",
     ]
   }
 
