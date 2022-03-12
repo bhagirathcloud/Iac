@@ -39,8 +39,8 @@ build {
       "sleep 30",
       "sudo apt-get update",
       "sudo apt-get install git -y",
-     "git clone https://github.com/bhagirathcloud/Iac.git",
-      "cd Iac && bash packer.sh",
+     "git clone https://github.com/bhagirathcloud/devops-automation.git",
+      "cd devops-automation && bash packer.sh",
     ]
   }
 
