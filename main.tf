@@ -43,11 +43,6 @@ output "instance_ip_linux_controller" {
   value       = aws_instance.controller_linux.public_ip
 }
 
-resource "aws_key_pair" "ssh-key" {
-  key_name   = "ssh-key"
-  public_key = var.ssh_key
-}
-
 resource "aws_security_group" "devops-test1" {
   name        = "devops-test1"
   description = "Allow sall traffic"
